@@ -119,7 +119,7 @@ const PrinterComponent = () => {
         </div>
         <div
           css={{
-            color: params.color ? params.color : mainColor,
+            color: params.color ? params.color : secondaryColor,
             justifyContent: "space-between",
             display: "flex",
             alignItems: "center",
@@ -130,9 +130,9 @@ const PrinterComponent = () => {
           <Image src="/logo-mk.png" alt="mk logo" width={192} height={192} />
           <span
             css={{
-              fontSize: "32px",
+              fontSize: "36px",
               fontWeight: 600,
-              textShadow: "2px 1px 3px black",
+              textShadow: "1px 1px 2px black",
             }}
           >
             @moshekatzdev
