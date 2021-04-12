@@ -26,11 +26,32 @@ a {
 }
 
 .background-gradient-brand {
-  background: rgb(235, 95, 94);
+  /* background: rgb(235, 95, 94);
   background: linear-gradient(
     0deg,
     rgba(235, 95, 94, 1) 0%,
     rgba(249, 179, 83, 1) 15%,
     rgba(108, 108, 108, 1) 100%
+  ); */
+
+  /* background: rgb(235, 95, 94);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 95, 94, 1) 0%,
+    rgba(249, 179, 83, 1) 100%
+  ); */
+
+  /* background: rgb(235, 95, 94);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 95, 94, 1) 0%,
+    rgba(249, 179, 83, 1) 70%
+  ); */
+
+  background: rgb(235, 95, 94);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 95, 94, 0.8326681014202556) 0%,
+    rgba(249, 179, 83, 0.8438725832129726) 70%
   );
 }

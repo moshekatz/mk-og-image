@@ -4,8 +4,8 @@ import React from "react";
 import { Logo } from "../components";
 import Image from "next/image";
 
-const mainColor = "#eb5f5e";
-const secondaryColor = "#f9b353";
+const mainColor = "#f9b353"; // "#eb5f5e";
+const secondaryColor = "#eb5f5e"; // "#f9b353";
 
 const LocalLogo = ({ color }) => (
   <svg
@@ -132,7 +132,7 @@ const PrinterComponent = () => {
             css={{
               fontSize: "32px",
               fontWeight: 600,
-              textShadow: "0px 1px 1px black",
+              textShadow: "2px 1px 3px black",
             }}
           >
             @moshekatzdev
